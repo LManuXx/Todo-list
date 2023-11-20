@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos personalizados para los botones */
+.btn-edit,
+.btn-delete {
+  background-color: #6b46c1;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-edit:hover {
+  background-color: #7c3aed;
+}
+
+.btn-delete:hover {
+  background-color: #d94641;
+}
